@@ -37,9 +37,4 @@ app.get('/elements', (req, res) => {
         company: "MyronJCM "
     });
 });
-
-// app.get('*', (req, res) => {
-//     res.sendFile (__dirname +  '/public/404.html');
-// });
-
 app.listen(port, () => { console.log(`Server run in port ${port}`), port });
